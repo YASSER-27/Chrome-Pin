@@ -51,7 +51,7 @@
 ---
 
 ## Download
-![Downloads](https://github.com/YASSER-27/Chrome-Pin/releases)
+[![Download Latest](https://img.shields.io)](https://github.com/YASSER-27/Chrome-Pin/releases)
 
 ## Technical Guide (For Developers)
 
@@ -63,6 +63,7 @@ pip install PyQt6 pygetwindow pywin32
 
 
 *Developed with ❤️ for maximum productivity.*
+
 
 
 
