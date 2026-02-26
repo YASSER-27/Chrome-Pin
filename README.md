@@ -27,9 +27,17 @@
 | ![Icon](high.png) | ![IMAGE](example/example.png) | ![IMAGE](example/example_gui.png) |
 
 ### 🎥 Video Demonstration
-*(Video coming soon...)*
-[VIDEO_LINK_PLACEHOLDER]
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/6b3b61c5-63ea-4d43-b69b-d5d8a68195ae" width="100%" autoplay loop muted playsinline>
+  </video>
+</p>
+
+---
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/557d6eaa-9135-4b1b-84f5-121848dc4ea8" width="100%" autoplay loop muted playsinline>
+  </video>
+</p>
 ---
 
 ## How it Works
@@ -56,3 +64,4 @@ pip install PyQt6 pygetwindow pywin32
 
 
 *Developed with ❤️ for maximum productivity.*
+
