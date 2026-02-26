@@ -1,32 +1,32 @@
-# Chrome View Controller 
+# Chrome View Controller
 
-**Chrome View Controller** is a productivity tool designed to transform your Google Chrome windows into a sleek, "chat-style" layout. It keeps your workspace organized by keeping specific Chrome windows elongated, always on top, and pinned to the corner of your screen.
+**Chrome View Controller** is a professional productivity utility designed to reconfigure Google Chrome windows into a streamlined, "chat-style" interface. It enhances multitasking efficiency by maintaining selected web windows in an elongated vertical aspect ratio, pinning them to the foreground, and docking them to the screen periphery.
 
 ---
 
-##  Key Features
+## Technical Specifications
 
-| Feature | Description |
+| Feature | Functionality |
 | :--- | :--- |
-| **Always on Top** | Keeps your selected Chrome window above all other applications. |
-| **Chat Layout** | Automatically resizes windows to 400x900 for a vertical view. |
-| **Global Shortcut** | Press `Ctrl + G` to show the window selection menu at your cursor. |
-| **Auto-Restore** | Reverts windows to their normal state automatically when the app exits. |
-| **System Tray** | Operates discreetly in the system tray area with a custom icon. |
+| **Foreground Priority** | Implements deep Windows API calls to maintain "Always on Top" status over all system applications. |
+| **Optimized Geometry** | Automatically recalibrates window dimensions to 400x900, forcing a mobile-responsive web view. |
+| **Command Shortcut** | Integrated `Ctrl + G` global hotkey to invoke the window selection menu instantly. |
+| **State Restoration** | Automated "Clean Exit" logic that reverts all modified windows to their original dimensions and styles. |
+| **Background Operation** | Low-overhead execution via the System Tray with zero interference to the primary workspace. |
 
 ---
 
-## Screenshots & Demo
+## Visual Presentation
 
-### Visual Interface
-> [!NOTE] 
-> Insert your application screenshots here to show the "Chat Style" transformation in action.
+### Interface Overview
+> [!NOTE]  
+> The following assets demonstrate the transformation from a standard browser tab to a docked vertical interface.
 
-| Main Icon | Interface | Gui |
+| Application Icon | Transformation Logic | GUI Interface |
 | :---: | :---: | :---: |
 | ![Icon](high.png) | ![IMAGE](example/example.png) | ![IMAGE](example/example_gui.png) |
 
-### 🎥 Video Demonstration
+### Functional Demonstration
 
 <p align="center">
   <video src="https://github.com/user-attachments/assets/6b3b61c5-63ea-4d43-b69b-d5d8a68195ae" width="100%" autoplay loop muted playsinline>
@@ -34,37 +34,34 @@
 </p>
 
 ---
+
 <p align="center">
   <video src="https://github.com/user-attachments/assets/557d6eaa-9135-4b1b-84f5-121848dc4ea8" width="100%" autoplay loop muted playsinline>
   </video>
 </p>
----
-
-## How it Works
-
-1. **Launch**: Open the application (or run the EXE).
-2. **Select**: Press `Ctrl + G` or right-click the icon in the System Tray.
-3. **Transform**: Choose the Google Chrome window you want to pin.
-4. **Productivity**: Your window is now fixed in the corner, always visible while you work.
-5. **Exit**: Choose "إغلاق البرنامج" to restore all windows to their original state.
 
 ---
 
-## Download
-[![Download](https://img.shields.io/badge/DOWNLOAD-LATEST_RELEASE-0078d4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/YASSER-27/Chrome-Pin/releases) 
+## Operational Workflow
 
-## Technical Guide (For Developers)
+1. **Initialization**: Execute the application binary or source script.
+2. **Selection**: Invoke the selection menu via `Ctrl + G` or the System Tray context menu.
+3. **Transformation**: Identify and select the target Google Chrome window for conversion.
+4. **Utilization**: The window is now anchored in the foreground, providing persistent access while working in other environments.
+5. **Termination**: Selecting "Exit" will trigger a global reset, restoring all managed windows to their default system states.
 
-If you want to run the source code, ensure you have the following requirements:
+---
+
+## Distribution
+
+[![Download Latest Release](https://img.shields.io/badge/DOWNLOAD-LATEST_RELEASE-0078d4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/YASSER-27/Chrome-Pin/releases)  
+
+---
+
+## Developer Documentation
+
+### Prerequisites
+To execute the source code directly, the following Python environment and libraries are required:
 
 ```bash
 pip install PyQt6 pygetwindow pywin32
-```
-
-
-*Developed with ❤️ for maximum productivity.*
-
-
-
-
-
